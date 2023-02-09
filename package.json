@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "format": "prettier --write *.js",
-    "start": "node src/CRUDBookNoDB.js",
+    "format": "prettier --write src/*.js",
+    "start": "node src/index.js",
     "dev": "nodemon src/CRUDBookNoDB.js"
   },
   "repository": {
@@ -24,5 +24,8 @@
     "expres": "^0.0.5",
     "express": "^4.18.2",
     "prettier": "^2.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
