@@ -2,10 +2,10 @@
   "name": "rest",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "CRUDBookNoDB.js",
   "scripts": {
     "format": "prettier --write src/*.js",
-    "start": "node src/index.js",
+    "start": "node src/CRUDBookNoDB.js",
     "dev": "nodemon src/CRUDBookNoDB.js"
   },
   "repository": {
